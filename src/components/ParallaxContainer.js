@@ -110,8 +110,9 @@ export default function ParallaxContainer() {
         <Parallax style={{ height: '100vh', top: "0px", overflowY: 'scroll' }} ref={parallax} pages={3}>
 
             <ParallaxLayer offset={1} speed={1}>
-                <Box w='100%' h={['100%', '120%']} _dark={{ backgroundColor: '#29485c' }} _light={{ backgroundColor: '#87BCDE' }} />
+                <Box w='100%' h={['100%', '150%']} _dark={{ backgroundColor: '#29485c' }} _light={{ backgroundColor: '#87BCDE' }} />
             </ParallaxLayer>
+            
             <ParallaxLayer offset={2} speed={1}>
             </ParallaxLayer>
 

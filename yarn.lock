@@ -6355,6 +6355,11 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fsevents@^2.3.2", "fsevents@~2.3.2":
+  "integrity" "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  "version" "2.3.3"
+
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -6389,7 +6394,6 @@
     "@testing-library/user-event" "^12.0.2"
     "framer-motion" "^4.0.0"
     "gabrielmontini.github.io" "file:"
-    "gh-pages" "^6.1.1"
     "portfolio" "file:"
     "react" "^18.1.0"
     "react-dom" "^18.1.0"
@@ -9109,7 +9113,6 @@
     "@testing-library/user-event" "^12.0.2"
     "framer-motion" "^4.0.0"
     "gabrielmontini.github.io" "file:"
-    "gh-pages" "^6.1.1"
     "portfolio" "file:"
     "react" "^18.1.0"
     "react-dom" "^18.1.0"
