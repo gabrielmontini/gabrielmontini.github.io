@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/home/static/css/main.97a4541d.css",
-    "main.js": "/home/static/js/main.c31770c1.js",
-    "static/js/377.f17b9940.chunk.js": "/home/static/js/377.f17b9940.chunk.js",
+    "main.js": "/home/static/js/main.760e5bb9.js",
+    "static/js/377.ea0a7ac1.chunk.js": "/home/static/js/377.ea0a7ac1.chunk.js",
     "static/media/cardo-all-400-normal.woff": "/home/static/media/cardo-all-400-normal.758e811dae6b456a995a.woff",
     "static/media/about.jpeg": "/home/static/media/about.cf54fa7dce4e5f981256.jpeg",
     "static/media/source-sans-pro-all-400-normal.woff": "/home/static/media/source-sans-pro-all-400-normal.1882629b5eaf2ec74fbf.woff",
@@ -26,11 +26,11 @@
     "static/media/source-sans-pro-vietnamese-400-normal.woff2": "/home/static/media/source-sans-pro-vietnamese-400-normal.e84a4369ad213f658ebb.woff2",
     "index.html": "/home/index.html",
     "main.97a4541d.css.map": "/home/static/css/main.97a4541d.css.map",
-    "main.c31770c1.js.map": "/home/static/js/main.c31770c1.js.map",
-    "377.f17b9940.chunk.js.map": "/home/static/js/377.f17b9940.chunk.js.map"
+    "main.760e5bb9.js.map": "/home/static/js/main.760e5bb9.js.map",
+    "377.ea0a7ac1.chunk.js.map": "/home/static/js/377.ea0a7ac1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97a4541d.css",
-    "static/js/main.c31770c1.js"
+    "static/js/main.760e5bb9.js"
   ]
 }
