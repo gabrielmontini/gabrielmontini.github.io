@@ -5,8 +5,8 @@ import "@fontsource/oxygen";
 import {extendTheme} from "@chakra-ui/react";
 
 const config = {
-  initialColorMode: "system",
-  useSystemColorMode: true,
+  initialColorMode: "dark",
+  useSystemColorMode: false,
 }
 const content = {
   imageBgUrl: 'https://drive.google.com/uc?export=view&id=1epmZIOAFAjyHhWppDDKGeup4IWRm-NV7',
