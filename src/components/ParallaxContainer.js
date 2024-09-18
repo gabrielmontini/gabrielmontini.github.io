@@ -153,7 +153,7 @@ export default function ParallaxContainer() {
                         <Divider orientation="horizontal" />
                     </Container>
 
-                    <Center position={['revert', 'revert', "absolute", "absolute"]} w='100%' pt={[0, 0, 500, 200, 200]} >
+                    <Center position={['revert', 'revert', "absolute", "absolute"]} w='100%' pt={[0, 0, 500, ,0,0,0, 200]} >
                         <Container h={14} _dark={{ backgroundColor: '#29485c' }} _light={{ backgroundColor: '#87BCDE' }}  >
                             <HStack justify={'flex-end'} h='100%'>
 
