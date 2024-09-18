@@ -153,7 +153,7 @@ export default function ParallaxContainer() {
                         <Divider orientation="horizontal" />
                     </Container>
 
-                    <Center position={['revert', 'revert', "absolute", "absolute"]} w='100%' pt={[0, 0, 200, 200, 200]} >
+                    <Center position={['revert', 'revert', "absolute", "absolute"]} w='100%' pt={[0, 0, 500, 200, 200]} >
                         <Container h={14} _dark={{ backgroundColor: '#29485c' }} _light={{ backgroundColor: '#87BCDE' }}  >
                             <HStack justify={'flex-end'} h='100%'>
 
@@ -269,9 +269,9 @@ export default function ParallaxContainer() {
                 >
 
                 <Box _light={{ color: ['#F4F4F4'] }}>
-                <Text fontSize={'5xl'} marginTop={['10%', '10%']} align={'center'}>Skills & Experience</Text>
+                <Text fontSize={'5xl'} marginTop={['10%', '10%','20%', '10%']} align={'center'}>Skills & Experience</Text>
                 <Box p={10}>
-                    <Text fontSize={'2xl'} align={'center'}>My main expertise is analyzing and developing new techincal solutions for your company. With a FullStack background on both Web and App development and experience working horizontally through multiple sectors of a company, specially on the finances market. </Text>
+                    <Text fontSize={['xl','xl','2xl','2xl']} align={['left','center']}>My main expertise is analyzing and developing new techincal solutions for your company. With a FullStack background on both Web and App development and experience working horizontally through multiple sectors of a company, specially on the finances market. </Text>
                 </Box>
                 </Box>
 
@@ -280,7 +280,7 @@ export default function ParallaxContainer() {
                     templateColumns='repeat(5, 1fr)'
                     gap={5}
                     _light={{ color: ['#F4F4F4'] }}
-                    overflowX={['scroll','hidden']}
+                    overflowX={['scroll', 'scroll','scroll',  'hidden']}
                     overflowY={'hidden'}
                 >
                     <GridItem colSpan={[1]} justify={'center'} padding={10} align={'center'} transition='all .2s ease-in-out' _hover={{ transform: 'scale(1.1)' }}>
@@ -349,12 +349,12 @@ export default function ParallaxContainer() {
             <ParallaxLayer
                 offset={2}
                 speed={-0}>
-                <Box id="intro" mb={20} mt={20} >
+                <Box id="intro" mb={[0,20]} mt={[0,20]} >
                     <Container >
                         <Heading size="3xl" fontWeight="lighweight" align={'center'}>{content.sub2}</Heading>
                         <Divider orientation="horizontal" />
                     </Container>
-                    <Stack direction={['column', 'row']} mt={[0,10]} mb={10} p={10} justify={'center'} align={'center'}>
+                    <Stack direction={['column', 'column','column', 'row']} mt={[0,10]} mb={10} p={10} justify={'center'} align={'center'}>
                         <Image
                             boxSize={['2xs', 'xs', 'xs', '2xs', 'xs']}
                             objectFit='cover'
@@ -365,12 +365,13 @@ export default function ParallaxContainer() {
                             borderRadius='full' />
                         <Stack direction={['column']}>
                             <Container borderRadius={10} _dark={{ backgroundColor: 'transparent' }} _light={{ backgroundColor: '#87BCDE' }} >
-                                <Flex alignItems={'center'} p={2} pl={3} >
+                                <Flex alignItems={'center'} p={2} pl={[0,3]} >
                                     <Text fontSize={'2xl'} fontWeight="lightweight">IT Business Analyst based in Curitiba</Text>
                                 </Flex>
                             </Container>
                             <Container borderRadius={10} _dark={{ backgroundColor: ['#29485c'] }} _light={{ backgroundColor: ['#87BCDE'] }} >
-                                <Text fontSize={'lg'} fontWeight="light" p={3}>Hello, thanks for checking out!
+                                <Text fontSize={['lg','lg','2xl','lg']} fontWeight="light" p={3}>
+                                    Hello, thanks for checking out!
                                     <br />
                                     I've started as a software developer on 2021 and since 2023 I'm helping companies implementing new technologies into multi-sector business.
                                     With experience on both Front and Back-end development and now further on the business analysis, I've been yearning to enter the international market and find an organization with the same values as mine to develop my skills.
