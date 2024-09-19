@@ -356,7 +356,7 @@ export default function ParallaxContainer() {
                     </Container>
                     <Stack direction={['column', 'column','column', 'row']} mt={[0,10]} mb={10} p={10} justify={'center'} align={'center'}>
                         <Image
-                            boxSize={['2xs', 'xs', 'xs', '2xs', 'xs']}
+                            boxSize={['3xs', '2xs', 'xs', '2xs', 'xs']}
                             objectFit='cover'
                             zIndex={1}
                             boxShadow='xl'
@@ -366,7 +366,7 @@ export default function ParallaxContainer() {
                         <Stack direction={['column']}>
                             <Container borderRadius={10} _dark={{ backgroundColor: 'transparent' }} _light={{ backgroundColor: '#87BCDE' }} >
                                 <Flex alignItems={'center'} p={2} pl={[0,3]} >
-                                    <Text fontSize={'2xl'} fontWeight="lightweight">IT Business Analyst based in Curitiba</Text>
+                                    <Text fontSize={'xl'} fontWeight="lightweight">IT Business Analyst based in Curitiba</Text>
                                 </Flex>
                             </Container>
                             <Container borderRadius={10} _dark={{ backgroundColor: ['#29485c'] }} _light={{ backgroundColor: ['#87BCDE'] }} >
