@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.45d5c7a2.css",
-    "main.js": "/portfolio/static/js/main.b41a9726.js",
+    "main.js": "/portfolio/static/js/main.ab9aed09.js",
     "static/js/377.f17b9940.chunk.js": "/portfolio/static/js/377.f17b9940.chunk.js",
     "static/media/cardo-all-400-normal.woff": "/portfolio/static/media/cardo-all-400-normal.758e811dae6b456a995a.woff",
     "static/media/about.jpeg": "/portfolio/static/media/about.cf54fa7dce4e5f981256.jpeg",
@@ -26,11 +26,11 @@
     "static/media/source-sans-pro-vietnamese-400-normal.woff2": "/portfolio/static/media/source-sans-pro-vietnamese-400-normal.e84a4369ad213f658ebb.woff2",
     "index.html": "/portfolio/index.html",
     "main.45d5c7a2.css.map": "/portfolio/static/css/main.45d5c7a2.css.map",
-    "main.b41a9726.js.map": "/portfolio/static/js/main.b41a9726.js.map",
+    "main.ab9aed09.js.map": "/portfolio/static/js/main.ab9aed09.js.map",
     "377.f17b9940.chunk.js.map": "/portfolio/static/js/377.f17b9940.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45d5c7a2.css",
-    "static/js/main.b41a9726.js"
+    "static/js/main.ab9aed09.js"
   ]
 }
